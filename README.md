@@ -1,5 +1,6 @@
 
-###Project introduction(项目介绍)
+### Project introduction(项目介绍)
+
 Ess-sdk development is based on stellar-sdk development, integrating stellar-sdk and stellar-base.
 
 The JavaScript Ess SDK facilitates integration with the Ess Horizon API server and commits Ess transactions, both on Node.js and browsers. It has two main uses: querying horizons and buildings, signing and submitting transactions to Ess networks.
@@ -7,7 +8,8 @@ The JavaScript Ess SDK facilitates integration with the Ess Horizon API server a
 ess-sdk开发基于stellar-sdk开发，将stellar-sdk和stellar-base整合在一起。
 JavaScript Ess SDK促进了与Ess Horizon API服务器的集成以及Ess事务的提交，无论是在Node.js上还是在浏览器上。它有两个主要用途：查询地平线和建筑物，签署和提交交易到Ess网络。
 
-###Software architecture(软件架构)
+### Software architecture(软件架构)
+
 The SRC directory is the source file of the project, and the modular way of ES6 is developed.
 
 Node_modules is the required dependency of the project, and is downloaded through NPM install.
@@ -30,7 +32,8 @@ gulpfile.js是项目打包成nodesdk的过程
 webpack.config.js是项目项目打包成浏览器sdk的过程（未压缩）
 webpack.config.min.js是项目项目打包成浏览器sdk的过程（压缩）
 
-###Instructions(使用说明)
+### Instructions(使用说明)
+
 Download webpack gulp globally
 Run npm install to download dependency in projects
 Run npm run build in the project to package node version SDK, and the packaged files are in lib folder.
